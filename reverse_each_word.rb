@@ -1,7 +1,7 @@
 
 
 def reverse_each_word (sen)
-  array = %w[sen]
+  array = %w(sen)
   array.each { |word| word.reverse! }
   array.join(" ")
 end
